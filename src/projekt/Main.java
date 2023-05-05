@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 public class Main {
     public static void main(String[] args) {
         JFrame window = new JFrame("Game");
-        project1.Logic game = new project1.Logic();
+        Logic game = new Logic();
         window.setSize(600,400) ;
         window.setDefaultCloseOperation(window.EXIT_ON_CLOSE);
         window.setVisible(true);
